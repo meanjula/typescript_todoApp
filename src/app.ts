@@ -1,8 +1,6 @@
-function add1(n1:number, n2:number):number{
-	return n1 + n2;
-}
-console.log(add1(2,3))
-
-
-let temp= 36
-const domainName ='Anjula';
+"use strict";
+const input = document.querySelector(".new-list") as HTMLInputElement;
+const addButton = document.querySelector(".add-item") as HTMLButtonElement;
+const listGroup = document.querySelector(".list-group") as HTMLOListElement;
+const clearButton = document.querySelector("#clear") as HTMLButtonElement;
+const completeButton = document.querySelector(".complete-btn")as HTMLButtonElement;
