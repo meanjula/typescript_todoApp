@@ -30,10 +30,22 @@ function addList() {
 			//clicking trash button triggers the remove function
 		  item.addEventListener("click", (e:Event) => {
 		 	const clickedbtn = <HTMLButtonElement>e.target;
-		 	if (clickedbtn.className === "trash-btn") {
-			  item.remove();
-			} else if (clickedbtn.className === "complete-btn") {
-			  item.classList.toggle("completed");// clicking complete button toogle class completed
+			
+			 if (clickedbtn.className === "trash-btn") {
+				const parentElem= <HTMLElement>clickedbtn.parentElement;
+				console.log(parentElem)
+			parentElem.classList.add("fall") ;
+			   parentElem.addEventListener(
+				 "transitionend",
+				 function () {
+				   parentElem.remove();
+				 }
+			   );
+			 }
+		
+			if (clickedbtn.className === "complete-btn") {
+				item.style.textDecoration = "line-through";
+				item.style.opacity = "0.4";
 			}
 		   });
 		 }

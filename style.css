@@ -63,6 +63,7 @@ h1 {
   display: flex;
   height: 3rem;
   width: 40vw;
+  transition: all 0.5s ease;
 }
 .newlist p {
   width: 100%;
@@ -92,7 +93,10 @@ a i {
   opacity: 0.4;
   background-color: #60a0d2;
 }
-
+.fall {
+  transform: translateY(200px) rotateZ(20deg);
+  opacity: 0;
+}
 #clear {
   font-size: 1.2rem;
   width: 20%;
