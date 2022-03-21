@@ -3,7 +3,6 @@
 This is the to do app created using HTML CSS and typescript with DOM manupulation.
 
 - start by npm init in project folder
-- ty
 - create tsconfig file(tsc --init)
 
 ## tsconfig.js
