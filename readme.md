@@ -14,9 +14,7 @@ This is the to do app created using HTML CSS and typescript with DOM manupulatio
 - sourceMap: true; for debugging in vscode (downlaod chrome browser ext)
 - sourceMap: true; for debugging in vscode (downlaod chrome browser ext)
 - sourceMap: true; for debugging in vscode (downlaod chrome browser ext)'- sourceMap: true; for debugging in vscode (downlaod chrome browser ext)'
-  After configurating tsconfig file
-
-- open tsc watch in terminal(tsc --w)
+- After configurating tsconfig file open tsc watch in terminal(tsc --w)
 
 ## Functionality
 
